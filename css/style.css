@@ -2,13 +2,19 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+p{
+    margin: 0;
+    padding: 0;
+}
 header{
-    max-width: 100%;
+    
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 290px;
+    padding: 10px 290px;
+    max-width: 950px;
+    margin: 0 auto;
 
 }
 .logo{
@@ -31,7 +37,7 @@ header{
 }
 .search{
     position: absolute;
-    left: 10px;
+    left: 20px;
 }
 input{
     background-color: #EFEFEF;
@@ -42,6 +48,7 @@ input{
     line-height: 19px;
     color:  #8E8E8E;
     margin-left: 50px;
+    width: 190px;
 
 }
 .nav{
@@ -65,21 +72,30 @@ input{
 main{
     background-color: #F9F9F9;
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
 }
+.account{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 .account-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 32px 450px;
+    padding: 31px 450px;
     box-sizing: border-box;
+    max-width: 1700px;
+    margin: 0 auto;
+
 }
 .account-left{
-    width: 290px;
-    height: 290px;
+    width: 150px;
+    height: 150px;
     background-color: #C4C4C4;
     border: none;
     border-radius: 500px;
+    margin-left: 70px;
 }
 .account-right{
     display: flex;
@@ -90,10 +106,12 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 80%;
+    
 }
-.wid-50{
-    width: 70%;
+.wid{
+    width: 90%;
+    margin-bottom: 24px;
 }
 h2{
     font-size: 28px;
@@ -110,7 +128,7 @@ h2{
     font-weight: 500;
     line-height: 16px;
     
-    padding: 7px 11px;
+    
     border-radius: 3px;
     display: flex;
     align-items: center;
@@ -126,7 +144,7 @@ h2{
 }
 .lines-title{
     margin: 20px auto;
-    width: 70%;
+    max-width: 65%;
     align-items: center;
 }
 .line2{
@@ -136,7 +154,7 @@ h2{
 
 }
 .line3{
-    width: 10%;
+    width: 15%;
     height: 1px;
     background-color: #000000;
 }
@@ -164,8 +182,8 @@ h2{
     
 }
 .block{
-    width: 400px;
-    height: 400px;
+    width: 290px;
+    height: 290px;
     background-color: #C4C4C4;
 
 }
